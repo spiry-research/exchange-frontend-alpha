@@ -1,0 +1,30 @@
+
+.recharge_content .address{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.recharge_content .address .copy{
+  color: #d4a668;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 60px;
+}
+
+.recharge_content .ercode{
+  position: relative;
+
+}
+.recharge_content .ercode .text{
+  cursor: pointer;
+}
+.recharge_content .ercode .ercon{
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  border: 1px solid #666;
+  padding: 10px;
+  background: #fff;
+  border-radius: 4px;
+}
